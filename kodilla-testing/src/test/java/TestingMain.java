@@ -1,5 +1,3 @@
-package com.kodilla.testing;
-
 import com.kodilla.testing.Calculator.Calculator;
 
 public class TestingMain {

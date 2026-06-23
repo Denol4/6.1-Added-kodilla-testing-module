@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-23T21:13:23.058Z" hostname="DESKTOP-VUNO9KV" time="0.031">
+  <properties/>
+  <testcase name="Sprawdzenie czy metoda poprawnie radzi sobie z pustą listą" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.027"/>
+  <testcase name="Sprawdzenie czy metoda poprawnie usuwa liczby nieparzyste z normalnej listy" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.002"/>
+  <system-out><![CDATA[Test case: begin
+Test case: end
+Test case: begin
+Test case: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
