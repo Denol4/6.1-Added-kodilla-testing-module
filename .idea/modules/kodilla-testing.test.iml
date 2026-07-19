@@ -6,6 +6,7 @@
     <content url="file://$MODULE_DIR$/../../kodilla-testing/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../kodilla-testing/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../kodilla-testing/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../kodilla-testing/src/test" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="25" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
