@@ -11,29 +11,36 @@ class ShapeCollectorTestSuite {
     class TestAddRemove {
         @Test
         void testAddFigure() {
-            // Given
             ShapeCollector shapeCollector = new ShapeCollector();
             Shape square = new Square(5.0);
 
-            // When
             shapeCollector.addFigure(square);
 
-            // Then
             assertEquals(square, shapeCollector.getFigure(0));
         }
 
         @Test
         void testRemoveFigure() {
-            // Given
             ShapeCollector shapeCollector = new ShapeCollector();
             Shape square = new Square(5.0);
             shapeCollector.addFigure(square);
 
-            // When
             shapeCollector.removeFigure(square);
 
-            // Then
             assertNull(shapeCollector.getFigure(0));
+        }
+
+        @Test
+        void testRemoveNotExistingFigure() {
+            // Given
+            ShapeCollector shapeCollector = new ShapeCollector();
+            Shape square = new Square(5.0);
+
+            // When
+            boolean result = shapeCollector.removeFigure(square);
+
+            // Then
+            assertFalse(result);
         }
     }
 
@@ -42,16 +49,25 @@ class ShapeCollectorTestSuite {
     class TestRetrieval {
         @Test
         void testGetFigure() {
-            // Given
             ShapeCollector shapeCollector = new ShapeCollector();
             Shape circle = new Circle(2.0);
             shapeCollector.addFigure(circle);
+
+            Shape retrievedShape = shapeCollector.getFigure(0);
+
+            assertEquals(circle, retrievedShape);
+        }
+
+        @Test
+        void testGetFigureOutsideBounds() {
+            // Given
+            ShapeCollector shapeCollector = new ShapeCollector();
 
             // When
             Shape retrievedShape = shapeCollector.getFigure(0);
 
             // Then
-            assertEquals(circle, retrievedShape);
+            assertNull(retrievedShape);
         }
     }
 
@@ -60,18 +76,27 @@ class ShapeCollectorTestSuite {
     class TestDisplay {
         @Test
         void testShowFigures() {
-            // Given
             ShapeCollector shapeCollector = new ShapeCollector();
             Shape square = new Square(5.0);
             Shape circle = new Circle(2.0);
             shapeCollector.addFigure(square);
             shapeCollector.addFigure(circle);
 
+            String result = shapeCollector.showFigures();
+
+            assertEquals("Square, Circle", result);
+        }
+
+        @Test
+        void testShowFiguresEmpty() {
+            // Given
+            ShapeCollector shapeCollector = new ShapeCollector();
+
             // When
             String result = shapeCollector.showFigures();
 
             // Then
-            assertEquals("Square, Circle", result);
+            assertEquals("", result);
         }
     }
 }
