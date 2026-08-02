@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests for comments statistics" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-01T15:49:07.713Z" hostname="DESKTOP-VCBDRR9" time="0.01">
+<testsuite name="Tests for comments statistics" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-02T17:30:49.864Z" hostname="DESKTOP-VCBDRR9" time="0.021">
   <properties/>
-  <testcase name="testCommentsLessThanPosts()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$CommentsTests" time="0.002"/>
-  <testcase name="testCommentsMoreThanPosts()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$CommentsTests" time="0.002"/>
-  <testcase name="testCommentsCountZero()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$CommentsTests" time="0.003"/>
+  <testcase name="testCommentsLessThanPosts()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$CommentsTests" time="0.008"/>
+  <testcase name="testCommentsMoreThanPosts()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$CommentsTests" time="0.006"/>
+  <testcase name="testCommentsCountZero()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$CommentsTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

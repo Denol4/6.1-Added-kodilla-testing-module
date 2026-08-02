@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests for users statistics" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-01T15:49:06.863Z" hostname="DESKTOP-VCBDRR9" time="0.849">
+<testsuite name="Tests for users statistics" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-02T17:30:48.437Z" hostname="DESKTOP-VCBDRR9" time="1.422">
   <properties/>
-  <testcase name="testUsersCountZero()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$UsersTests" time="0.843"/>
-  <testcase name="testUsersCount100()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$UsersTests" time="0.003"/>
+  <testcase name="testUsersCountZero()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$UsersTests" time="1.399"/>
+  <testcase name="testUsersCount100()" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$UsersTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (C:\Users\Denis\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.7\fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da\byte-buddy-agent-1.17.7.jar)

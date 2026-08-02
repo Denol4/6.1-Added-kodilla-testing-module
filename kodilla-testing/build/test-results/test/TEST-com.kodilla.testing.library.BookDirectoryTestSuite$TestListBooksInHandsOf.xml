@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests for listBooksInHandsOf" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-01T15:49:07.761Z" hostname="DESKTOP-VCBDRR9" time="0.005">
-  <properties/>
-  <testcase name="testListBooksInHandsOfOneBook()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$TestListBooksInHandsOf" time="0.001"/>
-  <testcase name="testListBooksInHandsOfFiveBooks()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$TestListBooksInHandsOf" time="0.001"/>
-  <testcase name="testListBooksInHandsOfZeroBooks()" classname="com.kodilla.testing.library.BookDirectoryTestSuite$TestListBooksInHandsOf" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
