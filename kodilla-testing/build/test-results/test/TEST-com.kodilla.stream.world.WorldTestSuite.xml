@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.stream.world.WorldTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-08-03T18:51:40.969Z" hostname="DESKTOP-VCBDRR9" time="0.067">
-  <properties/>
-  <testcase name="testGetPeopleQuantity()" classname="com.kodilla.stream.world.WorldTestSuite" time="0.043"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
