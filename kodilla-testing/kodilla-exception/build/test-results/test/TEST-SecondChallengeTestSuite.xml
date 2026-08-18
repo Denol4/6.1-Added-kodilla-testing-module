@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testy metody probablyIWillThrowException" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-18T15:46:12.906Z" hostname="DESKTOP-VCBDRR9" time="0.061">
+  <properties/>
+  <testcase name="Testy wartości brzegowych" classname="SecondChallengeTestSuite" time="0.03"/>
+  <testcase name="Testy które NIE powinny rzucić wyjątku" classname="SecondChallengeTestSuite" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
