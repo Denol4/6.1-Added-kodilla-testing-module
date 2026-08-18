@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.library.BookDirectoryTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-18T12:04:46.102Z" hostname="DESKTOP-VCBDRR9" time="0.036">
+  <properties/>
+  <testcase name="testListBooksWithConditionMoreThan20()" classname="com.kodilla.testing.library.BookDirectoryTestSuite" time="0.033"/>
+  <testcase name="testListBooksWithConditionsReturnList()" classname="com.kodilla.testing.library.BookDirectoryTestSuite" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
