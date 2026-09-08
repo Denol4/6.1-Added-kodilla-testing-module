@@ -1,6 +1,5 @@
 package com.kodilla.rps;
 
-import static java.time.chrono.JapaneseEra.values;
 
 public enum Move {
     ROCK("Kamień", 1),
