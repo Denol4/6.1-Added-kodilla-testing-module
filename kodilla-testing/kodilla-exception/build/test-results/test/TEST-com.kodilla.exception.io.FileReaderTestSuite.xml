@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-27T20:13:57.606Z" hostname="DESKTOP-VCBDRR9" time="0.008">
+  <properties/>
+  <testcase name="testReadFile()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.008"/>
+  <system-out><![CDATA[Denis
+Daniel
+Marcin
+Rafał
+Mateusz
+Agnieszka
+Kinga
+Sylwia
+Ireneusz
+Patryk
+I am gonna be here always!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

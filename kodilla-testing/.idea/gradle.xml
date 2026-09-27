@@ -16,6 +16,9 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/koddila-spring-web" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

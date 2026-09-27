@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring.calculator.CalculatorTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-27T20:14:03.001Z" hostname="DESKTOP-VCBDRR9" time="2.619">
+  <properties/>
+  <testcase name="testCalculations()" classname="com.kodilla.spring.calculator.CalculatorTestSuite" time="1.137"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-09-27T22:14:04.068+02:00  INFO 15644 --- [    Test worker] c.k.s.calculator.CalculatorTestSuite     : Starting CalculatorTestSuite using Java 25.0.2 with PID 15644 (started by Denis in C:\Users\Denis\IdeaProjects\Kodilla\kodilla-testing\kodilla-spring-intro)
+2026-09-27T22:14:04.075+02:00  INFO 15644 --- [    Test worker] c.k.s.calculator.CalculatorTestSuite     : No active profile set, falling back to 1 default profile: "default"
+2026-09-27T22:14:04.472+02:00  INFO 15644 --- [    Test worker] c.k.s.calculator.CalculatorTestSuite     : Started CalculatorTestSuite in 1.004 seconds (process running for 6.202)
+Wynik na wyświetlaczu: 15.0
+Wynik na wyświetlaczu: 5.0
+Wynik na wyświetlaczu: 50.0
+Wynik na wyświetlaczu: 2.0
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\Denis\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.4\58e850dde88f3cf20f41f659440bef33f6c4fe02\byte-buddy-agent-1.15.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
