@@ -3,6 +3,7 @@ package com.kodilla.patterns.prototype.library;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.awt.print.Book;
 import java.time.LocalDate;
 
 public class LibraryTestSuite {
