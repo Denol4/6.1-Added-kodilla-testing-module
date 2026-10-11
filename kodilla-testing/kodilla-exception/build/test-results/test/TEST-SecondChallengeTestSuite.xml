@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Testy metody probablyIWillThrowException" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-27T20:13:57.530Z" hostname="DESKTOP-VCBDRR9" time="0.073">
+<testsuite name="Testy metody probablyIWillThrowException" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-11T11:23:14.217Z" hostname="DESKTOP-VCBDRR9" time="0.089">
   <properties/>
-  <testcase name="Testy wartości brzegowych" classname="SecondChallengeTestSuite" time="0.038"/>
-  <testcase name="Testy które NIE powinny rzucić wyjątku" classname="SecondChallengeTestSuite" time="0.017"/>
+  <testcase name="Testy wartości brzegowych" classname="SecondChallengeTestSuite" time="0.045"/>
+  <testcase name="Testy które NIE powinny rzucić wyjątku" classname="SecondChallengeTestSuite" time="0.019"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

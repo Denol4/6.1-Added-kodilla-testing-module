@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kodilla-spring-web/kodilla-spring-web.iml" filepath="$PROJECT_DIR$/kodilla-spring-web/kodilla-spring-web.iml" />
     </modules>
   </component>
 </project>

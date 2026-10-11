@@ -1,9 +1,10 @@
-package com.kodilla.patterns.prototype.library;
+package com.kodilla.patterns.prototype.libary;
 
+import com.kodilla.patterns.prototype.library.Library;
+import com.kodilla.patterns.prototype.library.Book;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.awt.print.Book;
 import java.time.LocalDate;
 
 public class LibraryTestSuite {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-27T20:13:57.606Z" hostname="DESKTOP-VCBDRR9" time="0.008">
+<testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-11T11:23:14.313Z" hostname="DESKTOP-VCBDRR9" time="0.013">
   <properties/>
-  <testcase name="testReadFile()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.008"/>
+  <testcase name="testReadFile()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.012"/>
   <system-out><![CDATA[Denis
 Daniel
 Marcin
