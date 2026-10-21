@@ -1,0 +1,74 @@
+CREATE TABLE ISSUESLISTS
+(
+  ID SERIAL PRIMARY KEY,
+  NAME VARCHAR(100)
+);
+
+CREATE TABLE ISSUES 
+(
+  ID SERIAL PRIMARY KEY,
+  ISSUESLIST_ID BIGINT UNSIGNED,
+  FOREIGN KEY (ISSUESLIST_ID) REFERENCES ISSUESLISTS(ID),
+  SUMMARY VARCHAR(100),
+  DESCRIPTION VARCHAR(100),
+  USER_ID_ASSIGNEDTO BIGINT UNSIGNED,
+  FOREIGN KEY (USER_ID_ASSIGNEDTO) REFERENCES USERS(ID)
+);
+
+INSERT INTO USERS (FIRSTNAME, LASTNAME) VALUES
+('Jan', 'Kowalski'),
+('Anna', 'Nowak'),
+('Piotr', 'Wiśniewski'),
+('Katarzyna', 'Wójcik'),
+('Tomasz', 'Kamiński'),
+('Maria', 'Lewandowska'),
+('Paweł', 'Zieliński'),
+('Magdalena', 'Szymańska'),
+('Michał', 'Woźniak'),
+('Agnieszka', 'Dąbrowska');
+
+INSERT INTO ISSUESLISTS (NAME) VALUES
+
+('ToDo'),
+
+('In progress'),
+
+('Done');
+
+INSERT INTO ISSUES (ISSUESLIST_ID, SUMMARY, DESCRIPTION, USER_ID_ASSIGNEDTO) VALUES
+
+(1, 'Konfiguracja środowiska', 'Przygotowanie lokalnego środowiska deweloperskiego i Docker', 1),
+
+(1, 'Projekt bazy danych', 'Stworzenie diagramu ERD dla nowego modułu płatności', 2),
+
+(1, 'Refaktoryzacja API', 'Uporządkowanie endpointów i zmiana formatu odpowiedzi na JSON', 3),
+
+(1, 'Dodanie autoryzacji JWT', 'Zabezpieczenie ścieżek REST API za pomocą tokenów JWT', 4),
+
+(1, 'Optymalizacja zapytań SQL', 'Analiza indiksów na tabeli USERS i poprawa wolnych zapytań', 5);
+
+INSERT INTO ISSUES (ISSUESLIST_ID, SUMMARY, DESCRIPTION, USER_ID_ASSIGNEDTO) VALUES
+
+(2, 'Widok rejestracji', 'Tworzenie formularza rejestracji z walidacją danych', 6),
+
+(2, 'Integracja z Payment Gateway', 'Podłączenie zewnętrznego dostawcy płatności Stripe', 7),
+
+(2, 'Testy jednostkowe', 'Pisanie testów dla serwisu obsługującego zamówienia', 8),
+
+(2, 'Naprawa błędu logowania', 'Rozwiązanie problemu z wygasaniem sesji użytkownika', 9),
+
+(2, 'Strona profilowa', 'Stworzenie interfejsu edycji danych użytkownika', 10);
+
+INSERT INTO ISSUES (ISSUESLIST_ID, SUMMARY, DESCRIPTION, USER_ID_ASSIGNEDTO) VALUES
+
+(3, 'Makiety interfejsu', 'Przygotowanie makiet Figma dla widoku głównego aplikacji', 1),
+
+(3, 'Konfiguracja CI/CD', 'Stworzenie pipeline w GitHub Actions do automatycznego deploymentu', 2),
+
+(3, 'Dokumentacja API', 'Wygenerowanie dokumentacji przy użyciu Swagger / OpenAPI', 3),
+
+(3, 'Migracja bazy danych', 'Wykonanie skryptów migracyjnych na środowisku produkcyjnym', 4),
+
+(3, 'Konfiguracja logowania', 'Wdrożenie narzędzia do zbierania logów systemowych (ELK Stack)', 5)
+
+commit
