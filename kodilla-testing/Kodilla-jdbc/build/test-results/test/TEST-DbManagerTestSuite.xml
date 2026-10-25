@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DbManagerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-25T17:18:11.647Z" hostname="DESKTOP-VCBDRR9" time="0.3">
+  <properties/>
+  <testcase name="testSelectUsersAndPosts()" classname="DbManagerTestSuite" time="0.284"/>
+  <system-out><![CDATA[John Smith
+Zachary Lee
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
