@@ -8,3 +8,4 @@ include 'kodilla-spring-web'
 include 'kodilla-stream'
 
 include 'Kodilla-jdbc'
+include 'kodilla-sudoku'
